@@ -57,6 +57,7 @@ export class StudentAddEditComponent {
   }
   onFormSubmit() {
     if (this.studentForm.valid) {
+         console.log(this.studentForm.value);
       if (this.data) {
         // this._empService
         //   .updateEmployee(this.data.id, this.studentForm.value)
